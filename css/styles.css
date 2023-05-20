@@ -1,0 +1,230 @@
+/* TAG SELECTORS */
+body{
+text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family: "Montserrat";
+font-weight: 900;}
+
+p{
+  color: #8f8f8f;
+}
+
+
+/***** ID SELECTORS ******/
+#title {
+text-align: left;
+height: 660px;
+}
+
+
+#navbarDropdown{
+margin-left: 20%;
+}
+
+#features{
+height: 150%;
+
+position: relative;
+z-index: 1;}
+
+#cta{
+
+font-family: 'Montserrat';
+
+}
+
+#pricing{
+padding: 100px;
+}
+
+#footer{
+line-height: 2.2;
+font-size: 24px;
+}
+
+
+/* SECTIONS */
+.colored-section{
+background-color: #FF4C68;
+color: #fff;}
+
+.white-section{
+background-color: white;
+}
+
+
+/* CLASS SELECTORS */
+
+
+/* Navigation Bar */
+.navbar{
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+}
+
+.nav-item{
+padding:0 18px;
+}
+
+.nav-link{
+font-size: 1.2rem;
+font-family: "Montserrat-Light";
+}
+
+/* Download Buttons */
+
+
+/*****CONTAINER*****/
+
+
+/* Title Image */
+#title .container-fluid{
+padding: 3% 7% 15%;
+}
+
+.title-image1{
+position: absolute;
+right: 20px;
+z-index: 1;
+}
+
+.title-image{
+transform: rotate(25deg);
+width: 60%;
+}
+
+.container-fluid{
+padding: 7% 15%;}
+
+@media (max-width: 1154px) {
+#title {text-align: center;
+  }
+.title-image1{
+position: relative;
+z-index: 0;
+}
+.title-image{
+  width: 60%;
+  position:relative;
+  transform: rotate(0);
+}
+}
+
+.p{
+  colour: #8F8F8F;
+}
+
+
+/* Check-Circle */
+.checkmark{
+
+font-size:36px;
+color:#EF8172;
+margin-bottom: 1rem;
+}
+
+/* Bullseye */
+.fas{
+font-size:36px;
+color:#EF8172;
+margin-bottom: 1rem;
+}
+
+/* Heart */
+.heart{
+border-bottom: inherit;
+font-size: 36px;
+color:#EF8172;
+margin-bottom: 1rem;
+}
+
+
+.checkmark:hover{
+  color: #FF4C68;
+}
+
+.fas:hover {
+  color: #FF4C68;
+}
+
+.heart:hover{
+  color: #FF4C68;
+}
+
+
+.feature-box{
+position: relative;
+top: 100px;
+
+padding: 0% 5% 20%;
+}
+.feature-title{
+  font-size: 1.5rem;}
+
+/* Testimonial Section */
+
+#testimonials{
+
+
+background-color: #EF8172;
+position: static;}
+
+#press{
+background-color: #EF8172;
+
+padding-bottom: 3%;
+}
+
+
+.testimonial-image{
+width: 10%;
+border-radius: 100%;
+}
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+.carousel-item{
+padding: 7% 15%;
+}
+
+
+.press-logo{
+  width: 15%
+  margin: 20px 20px 50px;
+
+}
+
+.carousel-item{
+  height: 500px;
+}
+
+
+.cta-heading{
+font-weight: 900;
+font-size: 3rem;
+line-height: 1.5;}
+
+
+/* Pricing Section */
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* Footer */
+
+
+;
+}
